@@ -7,19 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity7 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main7);
 
-        //시작 버튼 클릭시 액티비티 전환
-        Button start_btn_1 = (Button) findViewById(R.id.start_btn_1);
-        start_btn_1.setOnClickListener(new View.OnClickListener(){
+        //다음 버튼 클릭시 액티비티 전환
+        Button next_btn_3 = (Button) findViewById(R.id.next_btn_3);
+        next_btn_3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(getApplicationContext(), MainActivity4.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity8.class);
                 startActivity(intent);
 
             }

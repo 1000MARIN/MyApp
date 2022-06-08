@@ -11,10 +11,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_margin="25dp"
+        android:textSize="20sp"
         android:textColor="#000000"
-        android:text="그럼 연습해 보겠습니다."
+        android:text="숫자를 외워 주세요."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,24 +22,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_margin="25dp"
+        android:textSize="70sp"
+        android:layout_margin="40dp"
         android:textColor="#000000"
-        android:text="시작 버튼을 눌러 연습을 시작하세요."
+        android:text="5  2  7  1  9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
-        android:id="@+id/start_btn_1"
+        android:id="@+id/next_btn_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="시작"
+        android:text="다음"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="168dp"
         tools:layout_editor_absoluteY="504dp" />
+
+
 
 </LinearLayout>
